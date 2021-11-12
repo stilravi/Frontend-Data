@@ -1,0 +1,12 @@
+svg text {
+    fill: red !important;
+}
+
+svg g:nth-of-type(2) g text {
+    transform: rotate(270deg);
+    text-anchor: end;
+}
+
+svg g:nth-of-type(2) g {
+    display: block;
+}
