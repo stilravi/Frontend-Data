@@ -3,14 +3,14 @@ const margin = { top: 40, bottom: 10, left: 300, right: 20 }
 const width = 850 - margin.left - margin.right
 const height = 600 - margin.top - margin.bottom
 
-// Creates sources <svg> element
+// Creates <svg> element inside element with id #chart
 const svg = d3
   .select("#chart")
   .append("svg")
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
 
-// Group used to enforce margin
+// Creates <g> inside the <svg> with transform attribute
 const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`)
 
 // Scales setup
@@ -33,10 +33,10 @@ d3.json('https://api.punkapi.com/v2/beers').then((json) => {
 });
 
 // Update Data function
-function update(new_data) {
+function update(data) {
   //Update the scales
-  xscale.domain([0, d3.max(new_data, (d) => d.abv)])
-  yscale.domain(new_data.map((d) => d.name))
+  xscale.domain([0, d3.max(data, (d) => d.abv)])
+  yscale.domain(data.map((d) => d.name))
   
   //Render the axis
   g_xaxis.transition().call(xaxis)
@@ -45,7 +45,7 @@ function update(new_data) {
   // Render the chart with new data
   const rect = g
       .selectAll('rect')
-      .data(new_data, (d) => d.name)
+      .data(data, (d) => d.name)
       .join('rect')
       .transition()
       .attr('height', yscale.bandwidth())
@@ -54,13 +54,15 @@ function update(new_data) {
       .attr('fill', (d,i) => colorScale(i))
 }
 
-d3.select("#filter-us-only").on("change", function () {
+// Filter option (This Code is from a Tutorial)
+// https://github.com/sgratzl/d3tutorial/blob/main/README.md)
+d3.select("#filter-beers-only").on("change", function () {
   // This will be triggered when the user selects or unselects the checkbox
   const checked = d3.select(this).property("checked")
   if (checked === true) {
     // Checkbox was just checked
 
-    // Keep only data element whose country is US
+    // Keep only data element whose alchohol percentage (abv) is under 8
     const filtered_data = data.filter((d) => d.abv < 8)
 
     update(filtered_data) // Update the chart with the filtered data
