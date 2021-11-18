@@ -6,6 +6,8 @@
 
 ![Intro Image](https://github.com/stilravi/Frontend-Data/blob/main/_wiki/00-overview.png)
 
+<br/>
+
 ## Inhoudsopgave
 * [Opdracht](#Opdracht)
 * [Data](#Data)
