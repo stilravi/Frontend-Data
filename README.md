@@ -4,7 +4,7 @@
 
 <br/>
 
-![Intro Image](https://github.com/stilravi/Functional-Programming/blob/main/_wiki/00-overview.png)
+![Intro Image](https://github.com/stilravi/Frontend-Data/blob/main/_wiki/00-overview.png)
 
 ## Inhoudsopgave
 * [Opdracht](#Opdracht)
