@@ -21,7 +21,7 @@ De volgende omschrijving van de opdracht hebben wij gekregen op de eerste dag: "
 ## Data
 
 ### Punk API
-De Data die in de Datavisualisatie moest komen moet vanuit een API komen. Deze API mocht ik zelf uitkiezen en ik heb gekozen voor de [Punk API](https://punkapi.com/documentation/v2). Met Deze API kun je veel informatie over een groot aantal biertjes vinden en inladen in je website. Deze Dataset is al redelijk schoon dus hoeft er niet veel opgeschoond te worden. Meer informatie over wat ik precies opgeschoond heb en hoe ik deze API gebruikt heb is te vinden in de [Wiki](https://github.com/stilravi/Functional-Programming/wiki).
+De Data die in de Datavisualisatie moest komen moet vanuit een API komen. Deze API mocht ik zelf uitkiezen en ik heb gekozen voor de [Punk API](https://punkapi.com/documentation/v2). Met Deze API kun je veel informatie over een groot aantal biertjes vinden en inladen in je website. Deze Dataset is al redelijk schoon dus hoeft er niet veel opgeschoond te worden.
 
 De Live Demo is te vinden op de volgende link: <br/>
 [Live Demo - Bar Chart](https://stilravi.github.io/Frontend-Data/02_Final-Bar-Chart/index.html)
