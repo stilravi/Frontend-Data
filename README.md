@@ -16,13 +16,7 @@
 * [License](#License)
 
 ## Opdracht
-Schrijf een programma (stuk code) die een aangeleverde Dataset en een Rest API ontleed en opschoont waarna er vervolgens
-gewerkt kan worden. Hierbij is het de bedoeling dat de Functional Programming principles worden toegepast en dat het proces
-wordt bijgehouden in de documentatie op Github.
-
-In de eerste week (_25-10-2021 t/m 29-10-2021_) is het de bedoeling dat er gebruik wordt gemaakt van een aangeleverde Dataset.
-Deze Dataset is voortgekomen uit een Enquete die alle studenten van de Tech Track hebben ingevuld. In de tweede week 
-(_01-11-2021 t/m 05-11-2021_) moet er een Rest API gekozen worden door de student en moet deze net als de Dataset uit week 1 ontleed en opgeschoond worden.
+De volgende omschrijving van de opdracht hebben wij gekregen op de eerste dag: "Create a data visualisation (using the d3 library) based on given data where data can be explored through interaction using enter(), update(), and exit()". De bedoeling was dus dat er een data visualisatie gemaakt moest worden met de D3 Library. Hierbij moest de Data uit een API komen en moest deze data vanuit de API verwerkt worden in de visualisatie. Dit kan gedaan worden met de enter(), update(). en exit() functions maar in de nieuwste versie van D3 kan dit ook alleen met .join gedaan worden.
 
 ## Data
 
@@ -46,7 +40,7 @@ De Live Demo is te vinden op de volgende link: <br/>
 ## Instalatie
 Om dit project binnen te halen kan deze Repository gecloned worden naar je eigen Device.
 ```shell
-$git clone https://github.com/stilravi/Functional-Programming.git
+$git clone https://github.com/stilravi/Frontend-Data.git
 ```
 Vervolgens kun je een lokale server opzetten waarop het script gedraaid kan worden. In het mapje "_01-enquete_" is het script te vinden van het opschonen van de Enquete Dataset en in het mapje "_02-api_" is het script van de Rest API te vinden.
 
