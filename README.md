@@ -15,8 +15,12 @@
 * [Bronnen](#Bronnen)
 * [License](#License)
 
+<br/>
+
 ## Opdracht
 De volgende omschrijving van de opdracht hebben wij gekregen op de eerste dag: "Create a data visualisation (using the d3 library) based on given data where data can be explored through interaction using enter(), update(), and exit()". De bedoeling was dus dat er een data visualisatie gemaakt moest worden met de D3 Library. Hierbij moest de Data uit een API komen en moest deze data vanuit de API verwerkt worden in de visualisatie. Dit kan gedaan worden met de enter(), update(). en exit() functions maar in de nieuwste versie van D3 kan dit ook alleen met .join gedaan worden.
+
+<br/>
 
 ## Data
 
@@ -29,12 +33,16 @@ De Data die in de Datavisualisatie moest komen moet vanuit een API komen. Deze A
 De Live Demo is te vinden op de volgende link: <br/>
 [Live Demo - Bar Chart](https://stilravi.github.io/Frontend-Data/02-BarChart/index.html)
 
+<br/>
+
 ## Instalatie
 Om dit project binnen te halen kan deze Repository gecloned worden naar je eigen Device.
 ```shell
 $git clone https://github.com/stilravi/Frontend-Data.git
 ```
 Vervolgens kun je een lokale server opzetten waarop het script gedraaid kan worden. In het mapje "_01-enquete_" is het script te vinden van het opschonen van de Enquete Dataset en in het mapje "_02-api_" is het script van de Rest API te vinden.
+
+<br/>
 
 ## Bronnen
 Tijdens dit project heb ik meerdere bronnen gebruikt die mij goed op weg geholpen hebben.
@@ -43,6 +51,8 @@ Tijdens dit project heb ik meerdere bronnen gebruikt die mij goed op weg geholpe
 * Ter inspiratie voor het inrichten van de Github en Wiki heb ik gekeken naar de Github van [Deanne](https://github.com/deannabosschert).
 * Om ervoor te zorgen dat elke punt aan het eind van een zin uit de API werd vervangen heb ik gekeken naar [deze code](https://stackoverflow.com/questions/20925157/remove-dot-sign-from-the-end-of-the-string).
 * Voor de data van de API opdracht heb ik gebruik gemaakt van de [Punk API](https://punkapi.com/documentation/v2).
+
+<br/>
 
 ## License
 
