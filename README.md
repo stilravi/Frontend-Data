@@ -51,12 +51,13 @@ Vervolgens kun je een lokale server opzetten waarop het script gedraaid kan word
 
 ## Bronnen
 Tijdens dit project heb ik meerdere bronnen gebruikt die mij goed op weg geholpen hebben.
-* [Learn D3 Tutorial](https://observablehq.com/collection/@d3/learn-d3)
-* [Student First Bar Chart - Tutorial](https://github.com/sgratzl/d3tutorial/blob/main/README.md)
-* [Making a Bar Chart with D3 and SVG](https://www.youtube.com/watch?v=NlBt-7PuaLk&ab_channel=CurranKelleher)
-* [Punk API](https://punkapi.com/documentation/v2)
-* [D3.js Library](https://d3js.org/)
-* Medestudenten uit Support Group 3
+* [Learn D3 Tutorial](https://observablehq.com/collection/@d3/learn-d3) voor het leren van D3.js
+* [Student First Bar Chart - Tutorial](https://github.com/sgratzl/d3tutorial/blob/main/README.md) heb ik gebruikt voor het oefenen met een Bar Chart maken en deze opzet uiteindelijk gebruiken voor de eindopdracht
+* [Making a Bar Chart with D3 and SVG](https://www.youtube.com/watch?v=NlBt-7PuaLk&ab_channel=CurranKelleher) heb ik gebruikt om te oefenen hoe D3 precies met SVG's omgaat en hoe dit in elkaar zit.
+* [Punk API](https://punkapi.com/documentation/v2) is de API die ik voor de Data gebruikt heb.
+* [D3.js Library](https://d3js.org/) is de Library die ik gebruikt heb voor de Datavisualisatie.
+* Medestudenten uit Support Group 3 voor het delen van kennis en informatie.
+* College's van Robert, Vincent en Suwi over D3 en de bijbehorende onderwerpen voor alle kennis en informatie.
 
 <br/>
 
