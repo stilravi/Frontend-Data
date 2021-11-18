@@ -1,4 +1,7 @@
 # Functional-Programming
+
+<br/>
+
 > Dit is de Readme van Frontend Data van 8 november 2021 t/m 19 november 2021. <br/><br/>
 > Ravi Stil   |   19-11-2021   |   Frontend Data   |   Information Design: Tech Track
 
