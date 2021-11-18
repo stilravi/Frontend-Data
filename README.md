@@ -20,6 +20,9 @@ De volgende omschrijving van de opdracht hebben wij gekregen op de eerste dag: "
 
 ## Data
 
+### D3 Library
+Om de Datavisualisatie te maken moet er gebruik gemaakt worden van de D3 Library. Dit is een JavaScript Library die erg handig is voor het maken van veel verschillende soorten Datavisualisaties. De documentatie van deze Library is te vinden op [deze pagina](https://d3js.org/).
+
 ### Punk API
 De Data die in de Datavisualisatie moest komen moet vanuit een API komen. Deze API mocht ik zelf uitkiezen en ik heb gekozen voor de [Punk API](https://punkapi.com/documentation/v2). Met Deze API kun je veel informatie over een groot aantal biertjes vinden en inladen in je website. Deze Dataset is al redelijk schoon dus hoeft er niet veel opgeschoond te worden.
 
