@@ -20,19 +20,8 @@ De volgende omschrijving van de opdracht hebben wij gekregen op de eerste dag: "
 
 ## Data
 
-### Enquete Dataset
-De Data die ik ga opschonen is voortgekomen uit een online Enquete die is ingevuld door alle Tech Track studenten. In deze Enquete zijn 14 random vragen gesteld aan de studenten. Ik ben mij vervolgens gaan richten op het ontleden en opschonen van één vraag uit de aangeleverde [Dataset](https://github.com/stilravi/Functional-Programming/blob/main/01-enquete/dataset/dataset.json). Dit is de volgende vraag:
-```json
-"Kaas is ook een zoogdier?": "Antwoord",
-```
-Op deze vraag zijn meerdere antwoorden gegeven die eerst opgeschoond moeten worden voordat er mee gewerkt kan worden. Denk 
-bijvoorbeeld hierbij aan antwoorden met vraagtekens, punten en hoofdletters. Op de [Dataset Analyse](https://github.com/stilravi/Functional-Programming/wiki/Data-Analyse) in de Wiki is meer te vinden over wat deze Data precies inhoud en wat er veranderd moet worden.
-
-De Live Demo is te vinden op de volgende link: <br/>
-[Live Demo - Enquete Dataset](https://stilravi.github.io/Functional-Programming/01-enquete/)
-
-### Rest API
-Ook moest er naast de Enquete Dataset data ingeladen en opgeschoond worden die uit een Rest API kwam. Deze API mocht ik zelf uitkiezen en ik heb gekozen voor de [Punk API](https://punkapi.com/documentation/v2). Met Deze API kun je veel informatie over een groot aantal biertjes vinden en inladen in je website. Deze Dataset is al redelijk schoon dus hoeft er niet veel opgeschoond te worden. Meer informatie over wat ik precies opgeschoond heb en hoe ik deze API gebruikt heb is te vinden in de [Wiki](https://github.com/stilravi/Functional-Programming/wiki).
+### Punk API
+De Data die in de Datavisualisatie moest komen moet vanuit een API komen. Deze API mocht ik zelf uitkiezen en ik heb gekozen voor de [Punk API](https://punkapi.com/documentation/v2). Met Deze API kun je veel informatie over een groot aantal biertjes vinden en inladen in je website. Deze Dataset is al redelijk schoon dus hoeft er niet veel opgeschoond te worden. Meer informatie over wat ik precies opgeschoond heb en hoe ik deze API gebruikt heb is te vinden in de [Wiki](https://github.com/stilravi/Functional-Programming/wiki).
 
 De Live Demo is te vinden op de volgende link: <br/>
 [Live Demo - Rest API](https://stilravi.github.io/Functional-Programming/02-api/)
