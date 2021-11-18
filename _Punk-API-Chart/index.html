@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Chart</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Menu</h1>
+            <ul>
+                <li><a href="https://github.com/stilravi/Frontend-Data/wiki" target="_blank">
+                        <img src="images/link.svg">
+                        Wiki</a></li>
+                <li><a href="https://github.com/stilravi/Frontend-Data" target="_blank">
+                        <img src="images/link.svg">
+                        Readme</a></li>
+            </ul>
+        </section>
+        <section id="chart">
+            <label><input type="checkbox" name="US" value="1" id="filter-us-only" />Only show beers under
+                8%alcohol</label>
+        </section>
+    </main>
+</body>
+
+<script src="https://d3js.org/d3.v7.js" charset="utf-8"></script>
+<script src="scripts/index.js"></script>
+
+</html>

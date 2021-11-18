@@ -9,16 +9,16 @@
 // ]
 
 d3.json('https://api.punkapi.com/v2/beers').then((data) => {
-    console.log(data);
-    const width = 1800
+    console.log(data)
+    const width = 1200
     const height = 700
-    const margin = { top: 50, bottom: 50, left: 50, right: 50 }
+    const margin = { top: 50, bottom: 400, left: 0, right: 0 }
 
     const svg = d3.select('#d3-container')
         .append('svg')
         .attr('height', height - margin.top - margin.bottom)
         .attr('width', width - margin.left - margin.right)
-        .attr("viewBox", [0, 0, width, height]);
+        .attr("viewBox", [20, 20, width, height])
 
     const x = d3.scaleBand()
         .domain(d3.range(data.length))
@@ -32,8 +32,7 @@ d3.json('https://api.punkapi.com/v2/beers').then((data) => {
     svg
         .append('g')
         .selectAll('rect')
-        .data(data)
-        // .data(data.sort((a, b) => d3.descending(a.score, b.score))) // Zorgt voor Sorteren van de bars
+        .data(data.sort((a, b) => d3.descending(a.score, b.score))) // Zorgt voor Sorteren van de bars
         .join('rect')
             .attr('x', (d, i) => x(i))
             .attr('y', (d) => y(d.abv))
@@ -52,6 +51,6 @@ d3.json('https://api.punkapi.com/v2/beers').then((data) => {
         .attr("font-size", '20px')
     }
             
-    svg.append("g").call(xAxis);
-    svg.append("g").call(yAxis);
+    svg.append("g").call(xAxis)
+    svg.append("g").call(yAxis)
 })
