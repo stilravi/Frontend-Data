@@ -37,6 +37,7 @@ function update(data) {
   //Update the scales
   xscale.domain([0, d3.max(data, (d) => d.abv)])
   yscale.domain(data.map((d) => d.name))
+  colorScale.domain([0, d3.max(data, (d) => d.abv)])
   
   //Render the axis
   g_xaxis.transition().call(xaxis)
@@ -51,7 +52,7 @@ function update(data) {
       .attr('height', yscale.bandwidth())
       .attr('width', (d) => xscale(d.abv))
       .attr('y', (d) => yscale(d.name))
-      .attr('fill', (d,i) => colorScale(i))
+      .attr('fill', (d,i) => colorScale(d.abv))
 }
 
 // Filter option (This Code is from a Tutorial)
