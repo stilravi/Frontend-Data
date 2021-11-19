@@ -14,8 +14,8 @@
 ## Inhoudsopgave
 * [Opdracht](#Opdracht)
 * [Data](#Data)
-    * [Enquete Dataset](#Enquete-Dataset])
-    * [Rest API](#Rest-API])
+    * [D3 Library](#D3-Library])
+    * [Punk API](#Punk API])
 * [Instalatie](#Instalatie)
 * [Bronnen](#Bronnen)
 * [License](#License)
