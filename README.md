@@ -15,7 +15,7 @@
 * [Opdracht](#Opdracht)
 * [Data](#Data)
     * [D3 Library](#D3-Library])
-    * [Punk API](#Punk API])
+    * [Punk API](#Punk-API])
 * [Instalatie](#Instalatie)
 * [Bronnen](#Bronnen)
 * [License](#License)
